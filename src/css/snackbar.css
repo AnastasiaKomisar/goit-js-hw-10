@@ -1,0 +1,80 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2E2F42;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 360px;
+    height: 40px;
+    margin-bottom: 16px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+input:hover {
+    border-color: #000000;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    width: 360px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 24px;
+    padding: 24px 0 8px 0; 
+}
+
+fieldset:hover {
+    border-color: #000000;
+}
+
+legend {
+    margin-left: 32px;
+}
+
+fieldset input {
+    width: 20px;
+    height: 20px;
+    margin: 0 8px 0 0;
+}
+
+fieldset label {
+    display: flex;
+    flex-direction: row;
+    width: 104px;
+    align-items: center;
+}
+
+button {
+    width: 360px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #4E75FF;
+    color: #FFFFFF; 
+}
+
+button:hover {
+    background-color: #6C8CFF;
+}
